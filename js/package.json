@@ -1,0 +1,30 @@
+{
+  "name": "swifttauth-fire",
+  "version": "1.1.0",
+  "description": "Exclusive sign in with google for simple authentication scaffolding across frameworks.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./react": "./src/react.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "peerDependencies": {
+    "firebase": "^12.14.0",
+    "react": "^19.2.7"
+  },
+  "keywords": [
+    "firebase",
+    "auth",
+    "google",
+    "react",
+    "nextjs",
+    "vite",
+    "hackathon"
+  ],
+  "author": "TADSTech",
+  "license": "MIT"
+}

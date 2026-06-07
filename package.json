@@ -1,0 +1,21 @@
+{
+  "name": "swifttauth-fire",
+  "version": "1.0.0",
+  "description": "Exclusive sign in with google for simple authentication scaffolding",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "firebase": "^9.0.0 || ^10.0.0 || ^11.0.0"
+  },
+  "keywords": [
+    "firebase",
+    "auth",
+    "google",
+    "hackathon"
+  ],
+  "author": "",
+  "license": "MIT"
+}
